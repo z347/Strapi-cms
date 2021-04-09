@@ -6,7 +6,7 @@
   "private": true,
   "engines": {
     "node": "14.15.5",
-    "npm": "6.14.4"
+    "yarn": "1.22.10"
   },
   "strapi": {
     "uuid": "7017b1be-2ae8-44ed-b4c0-3b5e4e88b477"
@@ -17,7 +17,7 @@
     "server:build": "strapi build",
     "server:rebuild": "strapi build --clean",
     "strapi": "strapi",
-    "clean": "rm -Rf build .cache",
+    "clean:basic": "rm -Rf build .cache",
     "clean:all": "rm -Rf node_modules build .cache yarn.lock",
     "prettier:check": "prettier --check **/*.{js,json}",
     "prettier:fix": "prettier --write **/*.{js,json}",
