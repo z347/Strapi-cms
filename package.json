@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "description": "strapi server for the online store",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "14.15.5",
+    "npm": "6.14.4"
+  },
+  "strapi": {
+    "uuid": "7017b1be-2ae8-44ed-b4c0-3b5e4e88b477"
+  },
+  "scripts": {
+    "start": "strapi start",
+    "develop": "strapi develop",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "yarn:audit": "yarn audit"
+  },
+  "dependencies": {
+    "strapi": "3.5.4",
+    "strapi-admin": "3.5.4",
+    "strapi-utils": "3.5.4",
+    "strapi-plugin-content-type-builder": "3.5.4",
+    "strapi-plugin-content-manager": "3.5.4",
+    "strapi-plugin-users-permissions": "3.5.4",
+    "strapi-plugin-email": "3.5.4",
+    "strapi-plugin-upload": "3.5.4",
+    "strapi-connector-mongoose": "3.5.4"
+  },
+  "devDependencies": {}
+}
