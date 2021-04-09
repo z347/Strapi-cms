@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "description": "strapi server for the online store",
+  "description": "strapi cms server for the online store",
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
@@ -14,8 +14,10 @@
   "scripts": {
     "start": "strapi start",
     "develop": "strapi develop",
-    "build": "strapi build",
+    "server:build": "strapi build",
+    "server:rebuild": "strapi build --clean",
     "strapi": "strapi",
+    "clean:all": "rm -Rf node_modules build .cache yarn.lock",
     "yarn:audit": "yarn audit"
   },
   "dependencies": {
