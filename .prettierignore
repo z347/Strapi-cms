@@ -1,0 +1,10 @@
+# work envirment
+.idea
+.vscode
+
+# temporary files
+.cache
+build
+
+# ignore all files with name
+package-lock.json
