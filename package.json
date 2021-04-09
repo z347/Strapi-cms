@@ -17,6 +17,7 @@
     "server:build": "strapi build",
     "server:rebuild": "strapi build --clean",
     "strapi": "strapi",
+    "clean": "rm -Rf build .cache",
     "clean:all": "rm -Rf node_modules build .cache yarn.lock",
     "prettier:check": "prettier --check **/*.{js,json}",
     "prettier:fix": "prettier --write **/*.{js,json}",
