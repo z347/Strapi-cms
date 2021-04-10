@@ -1,9 +1,11 @@
 {
-  "administrator": {
-    "login": "shulo.vova@gmail.com",
-    "password": "m&T5.caca!$!##n*iAJqUR$s"
-  },
-  "documentation": {
-    "password": "!$!$#@knvalnREDF#%(@!)"
+  "development-mode": {
+    "administrator": {
+      "login": "shulo.vova@gmail.com",
+      "password": "m&T5.caca!$!##n*iAJqUR$s"
+    },
+    "documentation": {
+      "password": "!$!$#@knvalnREDF#%(@!)"
+    }
   }
 }
