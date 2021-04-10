@@ -11,5 +11,6 @@
  */
 
 module.exports = () => {
-  console.log('my test - bootstrap')
+  // console.log('my test - bootstrap')
+  console.log(strapi)
 };
