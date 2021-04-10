@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "strapi start",
-    "develop": "strapi develop",
+    "start:dev": "strapi develop",
     "server:build": "strapi build",
     "server:rebuild": "strapi build --clean",
     "strapi": "strapi",
